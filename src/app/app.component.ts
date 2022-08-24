@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'springangularproject';
+  page = {
+    title: 'Home',
+    subtitle: 'Welcome Home!',
+    content: 'Some home content.',
+    image: 'assets/bg00.jpg'
+  };
 }
